@@ -2,7 +2,7 @@
 
 /**
  * swap_nodes - Swap two nodes in a listint_t doubly-linked list
- *
+ * @head: head ponter
  * @node1: The first node to swap
  * @node2: The second node to swap
  */
@@ -56,7 +56,7 @@ void insertion_sort_list(listint_t **list)
 
 			if (current->prev == NULL)
 				*list = current;
-			
+
 			/* Print the list after each swap */
 			print_list(*list);
 		}

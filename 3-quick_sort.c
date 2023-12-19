@@ -93,6 +93,6 @@ void quick_sort(int *array, size_t size)
 	if (array == NULL || size < 2)
 		return;
 
- 	/* Call the helper function to sort the array recursively */
+	/* Call the helper function to sort the array recursively */
 	lomuto_sort(array, 0, -1, size);
 }
